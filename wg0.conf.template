@@ -1,0 +1,9 @@
+[Interface]
+PrivateKey = <wg_private_key>
+Address = <wg_if_address>
+
+[Peer]
+PublicKey = <wg_peer_public_key>
+Endpoint = <wg_peer_endpoint_address>
+AllowedIPs = <wg_peer_allowed_ips>
+PersistentKeepalive = 25
